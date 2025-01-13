@@ -61,7 +61,7 @@ for mcs in unique_mcs:
                 )
 
         # Customize PDR plot
-        plt.ylim(0.7, 1)
+        #plt.ylim(0.7, 1)
         plt.xlabel('Distance (m)')
         plt.ylabel('PRR')
         plt.legend()
@@ -92,7 +92,7 @@ for mcs in unique_mcs:
                 )
 
         # Customize PIR plot
-        plt.ylim(0.1, 0.18)
+        #plt.ylim(0.1, 0.18)
         plt.xlabel('Distance (m)')
         plt.ylabel('PIR (s)')
         plt.legend()
